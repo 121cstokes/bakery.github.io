@@ -1,14 +1,14 @@
 * {box-sizing: border-box}
 body {font-family: Arial, Helvetica, sans-serif;}
 
-.navbar {
+.topnav {
   width: 100%;
   background-color: white;
   color: green;
   overflow: auto;
 }
 
-.navbar a {
+.topnav a {
   float: left;
   padding: 12px;
   color: green;
@@ -18,16 +18,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
   text-align: center;
 }
 
-.navbar a:hover {
+.topnav a:hover {
   background-color: white;
 }
 
-.navbar a.active {
+.topnav a.active {
   background-color: white;
 }
 
 @media screen and (max-width: 500px) {
-  .navbar a {
+  .topnav a {
     float: none;
     display: block;
     width: 100%;
