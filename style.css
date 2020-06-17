@@ -1,4 +1,10 @@
 .topnav {
   overflow: hidden;
+  color: green;
+  background-color: white;
+}
+
+.stuff  {
+  color: white;
   background-color: green;
 }
